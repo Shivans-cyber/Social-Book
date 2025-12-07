@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook.com</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d892350074.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------------------------- NAVIGATION BAR ------------------------------------>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="IMAGES/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="IMAGES/notification.png"></li>
+                <li><img src="IMAGES/inbox.png"></li>
+                <li><img src="IMAGES/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="IMAGES/search.png">
+                <input type="text" placeholder="Search for Creators , Trends and Ideas.">
+            </div>
+            <div class="nav-user-icon" onclick="settingsMenuToggle()">
+                <img src="IMAGES/profile-pic.png">
+            </div>
+        </div>
+
+        <!------------------------------- SETTING MENU------------------------------------>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <button type="submit" id="dark-btnss"> 🌙 Dark Mode</button>
+            </div>
+            
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                    <img src="IMAGES/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to imporve the new design</a>
+                    </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="IMAGES/setting.png" class="settings-icon">
+                <a href="#">Setting & Privacy</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/help.png" class="settings-icon">
+                <a href="#">Help & Support</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/logout.png" class="settings-icon">
+                <a href="#">Logout</a>
+            </div>
+
+    
+        </div>
+    </nav>
+    
+
+    <!-------------------------------PROFILE PAGE ----------------------------------->
+    <div class="profile-container">
+        <img src="IMAGES/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="IMAGES/profile-pic.png" class="pd-img">
+                    <div>
+                        <h3> John Nicholson</h3>
+                        <p> 120 Friends - 20 Mutuals</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><img src="IMAGES/add-friends.png">Friends</button>
+                <button type="button"><img src="IMAGES/message.png">Message</button>
+            </div>
+        </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3><b>Intro </b></h3>
+                <p class="intro-text"> Belive in yourself and you can do everything. </p>
+                <hr>
+                <ul>
+                    <li><img src="IMAGES/profile-job.png">Director at NST</li>
+                    <li><img src="IMAGES/profile-study.png">Studied form Newton School of Technology</li>
+                    <li><img src="IMAGES/location.png"> Lives in Delhi, India</li>
+                    <li><img src="IMAGES/profile-home.png">From Prayagraj, India</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small><i class="fas fa-caret-down"></i>Public</small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea role="3" placeholder="Whats on your mind, John?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="IMAGES/live-video.png"> Live Video</a>
+                        <a href="#"><img src="IMAGES/photo.png"> Photo/ Video</a>
+                        <a href="#"><img src="IMAGES/feeling.png"> Felling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                  <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span> Nov 25 2025, 2:00 AM</span>
+                    </div>
+                </div>
+                <p class="post-text"> Hey! Guys this is my first post in this platform.</p>
+                <img src="IMAGES/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="IMAGES/like-blue.png">150</div>
+                        <div><img src="IMAGES/comments.png">50</div>
+                        <div><img src="IMAGES/share.png">100</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+     <!------------------------------- FOOTER------------------------------------>
+
+    <div class="footer">
+        <p>Copyright 2025 - Social Book</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

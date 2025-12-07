@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook.com</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d892350074.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------------------------- NAVIGATION BAR ------------------------------------>
+
+    <nav>
+        <div class="nav-left">
+            <img src="IMAGES/logo.png" class="logo">
+            <ul>
+                <li><img src="IMAGES/notification.png"></li>
+                <li><img src="IMAGES/inbox.png"></li>
+                <li><img src="IMAGES/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="IMAGES/search.png">
+                <input type="text" placeholder="Search for Creators , Trends and Ideas.">
+            </div>
+            <div class="nav-user-icon" onclick="settingsMenuToggle()">
+                <img src="IMAGES/profile-pic.png">
+            </div>
+        </div>
+
+        <!------------------------------- SETTING MENU------------------------------------>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <button type="submit" id="dark-btns"> 🌙 Dark Mode</button>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                    <img src="IMAGES/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to imporve the new design</a>
+                    </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="IMAGES/setting.png" class="settings-icon">
+                <a href="#">Setting & Privacy</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/help.png" class="settings-icon">
+                <a href="#">Help & Support</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility</a>
+            </div>
+            <div class="settings-links">
+                <img src="IMAGES/logout.png" class="settings-icon">
+                <a href="#">Logout</a>
+            </div>
+
+    
+        </div>
+    </nav>
+    
+    <!------------------------------- MIAN BODY------------------------------------>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="IMAGES/news.png"> Latest News</a>
+                <a href="#"><img src="IMAGES/friends.png"> Friends</a>
+                <a href="#"><img src="IMAGES/group.png">Group</a>
+                <a href="#"><img src="IMAGES/marketplace.png">Market Place</a>
+                <a href="#"><img src="IMAGES/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p> Your Shourtcuts</p>
+                <a href="#"><img src="IMAGES/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="IMAGES/shortcut-2.png"> Web Design Course</a>
+                <a href="#"><img src="IMAGES/shortcut-3.png"> Full Stack Development</a>
+                <a href="#"><img src="IMAGES/shortcut-4.png"> Website Experts</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="IMAGES/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="IMAGES/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="IMAGES/member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="IMAGES/member-3.png">
+                    <p>Rosy</p>
+                </div>
+                <div class="story story5">
+                    <img src="IMAGES/member-4.png">
+                    <p>Tonny</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small><i class="fas fa-caret-down"></i>Public</small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea role="3" placeholder="Whats on your mind, John?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="IMAGES/live-video.png"> Live Video</a>
+                        <a href="#"><img src="IMAGES/photo.png"> Photo/ Video</a>
+                        <a href="#"><img src="IMAGES/feeling.png"> Felling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                  <div class="user-profile">
+                    <img src="IMAGES/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <span> Nov 25 2025, 2:00 AM</span>
+                    </div>
+                </div>
+                <p class="post-text"> Hey! Guys this is my first post in this platform.</p>
+                <img src="IMAGES/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div id="al7"><img src="IMAGES/like-blue.png"><button>760</button></div>
+                        <div id="al8"><img src="IMAGES/comments.png"><button>650</button></div>
+                        <div id="al9"><img src="IMAGES/share.png"><button>450</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                  <div class="user-profile">
+                    <img src="IMAGES/member-1.png">
+                    <div>
+                        <p>Alison Mina</p>
+                        <span> May 25 2025, 5:00 PM</span>
+                    </div>
+                </div>
+                <p class="post-text"> Enjoying the weekend! Hanging out with friends.</p>
+                <img src="IMAGES/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div id="al1"><img src="IMAGES/like-blue.png"><button>150</button></div>
+                        <div id="al2"><img src="IMAGES/comments.png"><button>50</button></div>
+                        <div id="al3"><img src="IMAGES/share.png"><button>1500</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                  <div class="user-profile">
+                    <img src="IMAGES/member-2.png">
+                    <div>
+                        <p>Jackson Aston</p>
+                        <span> Nov 20 2025, 6:00 PM</span>
+                    </div>
+                </div>
+                <p class="post-text"> Evening Walk is best "Therapy".</p>
+                <img src="IMAGES/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div id="al4"><img src="IMAGES/like.png"><button>1250</button></div>
+                        <div id="al5"><img src="IMAGES/comments.png"><button>50</button></div>
+                        <div id="al6"><img src="IMAGES/share.png"><button>520</button></div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn" id="load-more-btn">Load More</button>
+        </div>
+
+
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4> Events</h4>
+                <a href="#"> See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span> March</span>
+                </div>
+                <div class="right-event">
+                    <h4> Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More info...</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span> June</span>
+                </div>
+                <div class="right-event">
+                    <h4> Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Central Prak</p>
+                    <a href="#">More info...</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>7</h3>
+                    <span> Dec</span>
+                </div>
+                <div class="right-event">
+                    <h4> Moto Expo</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Bharat Mandapam</p>
+                    <a href="#">More info...</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4> Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="IMAGES/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4> Conversations </h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMAGES/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMAGES/member-2.png">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+
+             <div class="online-list">
+                <div class="online">
+                    <img src="IMAGES/member-3.png">
+                </div>
+                <p>Rosy Jaiswal</p>
+            </div>
+
+        </div>
+    </div>
+
+
+     <!------------------------------- FOOTER------------------------------------>
+
+    <div class="footer">
+        <p>Copyright 2025 - Social Book</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
